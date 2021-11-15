@@ -223,6 +223,8 @@ def train_mot(training_name, save_dir, config, logger, is_distributed=False):
     log_or_print(logger, f"Training time {total_time_str}")
 
 
+
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="train on mot")
